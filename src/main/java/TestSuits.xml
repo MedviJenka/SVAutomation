@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Multiple Tests">
+
+    <test name="sanity">
+        <classes>
+            <class name="SanityTest.Sanity"/>
+        </classes>
+    </test>
+    <test name="functionality1">
+        <classes>
+            <class name="FunctionalityTests.ErrorHandlingMaxAnswerValue"/>
+        </classes>
+    </test>
+    <test name="functionality2">
+        <classes>
+            <class name="FunctionalityTests.ErrorHandlingMaxValue"/>
+        </classes>
+    </test>
+    <test name="functionality3">
+        <classes>
+            <class name="FunctionalityTests.BackButton"/>
+        </classes>
+    </test>
+    <test name="functionality4">
+        <classes>
+            <class name="FunctionalityTests.MaxAnswerValue"/>
+        </classes>
+    </test>
+    <test name="functionality5">
+        <classes>
+            <class name="FunctionalityTests.MaxQuestionValue"/>
+        </classes>
+    </test>
+    <test name="functionality6">
+        <classes>
+            <class name="FunctionalityTests.MinQuestionValue"/>
+        </classes>
+    </test>
+    <test name="functionality7">
+        <classes>
+            <class name="FunctionalityTests.PressAltF4"/>
+        </classes>
+    </test>
+    <test name="functionality8">
+        <classes>
+            <class name="FunctionalityTests.QuitButton"/>
+        </classes>
+    </test>
+    <test name="functionality9">
+        <classes>
+            <class name="FunctionalityTests.RadioButton"/>
+        </classes>
+    </test>
+    <test name="functionality10">
+        <classes>
+            <class name="FunctionalityTests.WrongAnswers"/>
+        </classes>
+    </test>
+    <test name="functionality11">
+        <classes>
+            <class name="FunctionalityTests.TryAgainButton"/>
+        </classes>
+    </test>
+    <test name="functionality12">
+        <classes>
+            <class name="FunctionalityTests.CorrectAnswers"/>
+        </classes>
+    </test>
+    <test name="functionality13">
+        <classes>
+            <class name="FunctionalityTests.FailScreenQuitButton"/>
+        </classes>
+    </test>
+    <test name="functionality14">
+        <classes>
+            <class name="FunctionalityTests.FailScreenAltF4"/>
+        </classes>
+    </test>
+    <test name="functionality15">
+        <classes>
+            <class name="FunctionalityTests.FailScreenTryAgainButton"/>
+        </classes>
+    </test>
+    <test name="functionality16">
+        <classes>
+            <class name="FunctionalityTests.BackButtonInGameplayScreen"/>
+        </classes>
+    </test>
+    <test name="functionality17">
+        <classes>
+            <class name="FunctionalityTests.FailScreenFacebookButton"/>
+        </classes>
+    </test>
+    <test name="functionality18">
+        <classes>
+            <class name="FunctionalityTests.QuestionScreenHebrewLetters"/>
+        </classes>
+    </test>
+    <test name="functionality19">
+        <classes>
+            <class name="FunctionalityTests.MaxAnswerValue"/>
+        </classes>
+    </test>
+    <test name="functionality20">
+        <classes>
+            <class name="FunctionalityTests.UpperCaseAnswerScreen"/>
+        </classes>
+    </test>
+    <test name="functionality21">
+        <classes>
+            <class name="FunctionalityTests.UpperCaseQuestionScreen"/>
+        </classes>
+    </test>
+    <test name="functionality22">
+        <classes>
+            <class name="FunctionalityTests.SpaceBarForTypingQuestion"/>
+        </classes>
+    </test>
+    <test name="functionality23">
+        <classes>
+            <class name="FunctionalityTests.SpaceBarForTypingAnswer"/>
+        </classes>
+    </test>
+    <test name="functionality24">
+        <classes>
+            <class name="FunctionalityTests.NextWithNoStringQuestionScreen"/>
+        </classes>
+    </test>
+    <test name="functionality25">
+        <classes>
+            <class name="FunctionalityTests.NextWithNoRadioButtonAnswerScreen"/>
+        </classes>
+    </test>
+    <test name="integration">
+        <classes>
+            <class name="IntegrationTest.Integration"/>
+        </classes>
+    </test>
+</suite>
+
+
+

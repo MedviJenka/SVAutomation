@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Sanity Test Suite">
+    <test verbose="2" name="C:/TriviaTest/src/main/java/">
+        <classes>
+            <class name="SanityTest.Sanity"/>
+            <class name="FunctionalityTests.ErrorHandlingMaxAnswerValue"/>
+            <class name="FunctionalityTests.ErrorHandlingMaxValue"/>
+            <class name="FunctionalityTests.FunctionalityBackButton"/>
+            <class name="FunctionalityTests.ErrorHandlingMaxAnswerValue"/>
+            <class name="FunctionalityTests.FunctionalityMaxQuestionValue"/>
+            <class name="FunctionalityTests.FunctionalityPressAltF4"/>
+            <class name="FunctionalityTests.FunctionalityQuitButton"/>
+            <class name="FunctionalityTests.FunctionalityRadioButton"/>
+            <class name="IntegrationTest.IntegrationCopy"/>
+        </classes>
+    </test>
+</suite>
