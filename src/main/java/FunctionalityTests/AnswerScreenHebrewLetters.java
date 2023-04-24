@@ -7,7 +7,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 
-
 /*
  * In this case we will test hebrew letters in the answer field
  * Result: PASSED

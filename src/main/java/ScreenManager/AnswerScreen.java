@@ -21,8 +21,8 @@ public class AnswerScreen {
 
     // buttons
     By page = By.id("answerhead");
-    By nextb = By.id("nextquest");
-    By backb = By.id("backquest");
+    By nextButton = By.id("nextquest");
+    By backButton = By.id("backquest");
 
 
 
@@ -50,11 +50,11 @@ public class AnswerScreen {
 
 
     public void clickNextButton() {
-        driver.findElement(nextb).click();
+        driver.findElement(nextButton).click();
     }
 
     public void clickBackButton() {
-        driver.findElement(backb).click();
+        driver.findElement(backButton).click();
     }
 
 }
